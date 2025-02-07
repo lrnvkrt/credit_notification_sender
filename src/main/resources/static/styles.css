@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#client-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.client-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.client-card:hover {
+    transform: scale(1.05);
+}
+
+.client-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.client-card p {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #333;
+}
+
+.client-card .status {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.client-card .income {
+    color: #28A745;
+}
+
+.client-card .debt {
+    color: #DC3545;
+}
